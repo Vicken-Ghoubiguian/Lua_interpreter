@@ -7,7 +7,7 @@ It is for people who want to learn or to teach Lua programming language.
 
 
 
-__important precision__: to generate the lua interpreter docker image with the most recent version of the language, you must change the version number in the Dockerfile. 
+__important precision__: to generate the lua interpreter docker image with the most recent version of the language, you must change the version number in the Dockerfile. All of taht is specified in the Dockerfile comments.
 
 ## Generate image from Dockerfile
 
