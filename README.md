@@ -15,7 +15,7 @@ __important precision__: to generate the lua interpreter docker image with the m
 
 ## Pull image from docker hub
 
-There is a prepared docker image on docker hub [here](https://hub.docker.com/r/wicken/lua_interpreter)
+There is a prepared docker image on docker hub [here](https://hub.docker.com/r/wicken/lua_interpreter).
 To get the lua_interpreter image from docker hub, execute this command:
 
 ```bash
