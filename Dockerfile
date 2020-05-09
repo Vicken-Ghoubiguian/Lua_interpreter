@@ -5,16 +5,10 @@ FROM ubuntu:latest
 LABEL maintainer="ericghoubiguian@live.fr"
 
 #
-RUN apt upgrade -y
+RUN apt upgrade -y && apt update -y
 
 #
-RUN apt update -y
-
-#
-RUN apt install build-essential libreadline-dev -y
-
-#
-RUN apt install curl -y
+RUN apt install build-essential libreadline-dev curl -y
 
 #
 RUN mkdir /lua_build
