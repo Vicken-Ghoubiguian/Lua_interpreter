@@ -11,7 +11,24 @@ __important precision__: to generate the lua interpreter docker image with the m
 
 ## Generate image from Dockerfile
 
+If you want generate the Docker image from the repo's Dockerfile, you must clone the project's git repo first:
 
+```bash
+git clone https://gitlab.imerir.com/eric.ghoubiguian/lua_interpreter
+```
+Then, execute the following command:
+
+```bash
+cd lua_interpreter
+```
+After it, execute this last command:
+
+```bash
+sudo docker image build -t <image_name>:<image_tag> .
+```
+It will generate the Docker image.
+
+__important precision__: the element <image_name> corresponds to the image's name (put the `lua_interpreter` by default) and the <image_tag> corresponds to the image's tag (put the `latest` by default).
 
 ## Pull image from docker hub
 
