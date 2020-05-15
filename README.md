@@ -5,9 +5,16 @@ It is for people who want to learn or to teach Lua programming language.
 
 ## prerequisites
 
+To use the lua interpreter, you must install Docker at first.
 
+You must install Docker following the instructions on its official documentation [here](https://docs.docker.com/get-docker/).
 
-__important precision__: to generate the lua interpreter docker image with the most recent version of the language, you must change the version number in the Dockerfile. All of taht is specified in the Dockerfile comments.
+Or if you are on Linux, you could install Docker from the official repositories with this following command (for Ubuntu and Debian only):
+
+```bash
+sudo apt install docker.io
+```
+__important precision__: to generate the lua interpreter docker image with the most recent version of the language, you must change the version number in the Dockerfile. All of that is specified in the Dockerfile comments.
 
 ## Generate image from Dockerfile
 
@@ -63,3 +70,4 @@ To quit the interpreter, execute the following command:
 ```bash
 > os.exit()
 ```
+Now it's your turn to play...
