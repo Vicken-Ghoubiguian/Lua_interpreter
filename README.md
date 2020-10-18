@@ -21,7 +21,7 @@ __important precision__: to generate the lua interpreter docker image with the m
 If you want generate the Docker image from the repo's Dockerfile, you must clone the project's git repo first:
 
 ```bash
-git clone https://gitlab.imerir.com/eric.ghoubiguian/lua_interpreter
+git clone https://github.com/Vicken-Ghoubiguian/Lua_interpreter
 ```
 Then, execute the following command:
 
